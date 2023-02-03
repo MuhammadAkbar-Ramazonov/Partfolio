@@ -513,11 +513,13 @@ input {
 
 /*===== Skills Section =====*/
 .skills__container {
-	/* grid-template-columns: 320px;
+	grid-template-columns: 320px 320px;
 	column-gap: 3rem;
-	justify-content: center; */
+	justify-content: center;
 }
+.skills__content {
 
+}
 .skills__header {
 	display: flex;
 	align-items: center;
@@ -565,7 +567,7 @@ input {
 }
 
 .skills__list {
-	grid-template-columns: 320px 320px;
+	grid-template-columns: 320px;
 	justify-content: center;
 
 	gap: 3rem;
