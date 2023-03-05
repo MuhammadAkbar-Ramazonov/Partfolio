@@ -1269,6 +1269,9 @@ textarea.input {
     align-items: initial;
     padding: 6rem 0 2rem;
   }
+  .about__data {
+    padding: 1.5rem;
+  }
 
   .home__container {
     row-gap: 0.5rem;
@@ -1283,7 +1286,7 @@ textarea.input {
   }
 
   .home__social {
-position: static;
+    position: static;
     /* left: initial; */
     /* right: 0; */
     /* flex-direction: column; */
