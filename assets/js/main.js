@@ -60,30 +60,10 @@ function activeWork() {
 
 linkWork.forEach((element) => element.addEventListener("click", activeWork));
 
-/*===== Work Popup =====*/
-document.addEventListener("click", (evt) => {
-	if (evt.target.classList.contains("work__button")) {
-		togglePortfolioPopup();
-		portfolioItemDetails(evt.target.parentElement);
-	}
-});
-
 function togglePortfolioPopup() {
 	document.querySelector(".portfolio__popup").classList.toggle("open");
 }
 
-document
-	.querySelector(".portfolio__popup-cloce")
-	.addEventListener("click", togglePortfolioPopup);
-
-function portfolioItemDetails(portfolioItem) {
-	document.querySelector(".pp__thumbnail img").src =
-		portfolioItem.querySelector(".work__img").src;
-	document.querySelector(".portfolio-popup-subtitle span").innerHTML =
-		portfolioItem.querySelector(".work__title").innerHTML;
-	document.querySelector(".portfolio-popup-body").innerHTML =
-		portfolioItem.querySelector(".portfolio__item-details").innerHTML;
-}
 /*=============== SERVICES MODAL ===============*/
 
 /*=============== SWIPER TESTIMONIAL ===============*/
