@@ -1273,7 +1273,9 @@ textarea.input {
   .home__container {
     row-gap: 2rem;
   }
-
+  .home__data {
+    max-width: 325px;
+  }
   .home__img {
     display: block;
     width: 250px;
@@ -1282,7 +1284,7 @@ textarea.input {
 
   .home__social {
     left: initial;
-    right: -1rem;
+    right: -2rem;
     flex-direction: column;
     row-gap: 3.5rem;
   }
