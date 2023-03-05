@@ -14,7 +14,6 @@ if (navToggle) {
 /* Validate If Constant Exists */
 if (navClose) {
 	navClose.addEventListener("click", () => {
-		console.log(navMenu);
 		navMenu.classList.remove("show-sidebar");
 	});
 }
@@ -101,6 +100,7 @@ function navHighlighteer() {
 		const sectionHeight = current.offsetHeight;
 		const sectionTop = current.offsetTop - 50,
 			sectionId = current.getAttribute("id");
+			navMenu.classList.remove("show-sidebar");
 
 		if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
 			document
