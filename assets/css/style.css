@@ -1267,14 +1267,11 @@ textarea.input {
     background-image: none;
     height: initial;
     align-items: initial;
-    padding: 6rem 0 2rem;
-  }
-  .about__data {
-    padding: 1.5rem;
+    padding: 7rem 0 2rem;
   }
 
   .home__container {
-    row-gap: 0.5rem;
+    row-gap: 2rem;
   }
   .home__data {
     max-width: 325px;
@@ -1286,20 +1283,19 @@ textarea.input {
   }
 
   .home__social {
-    position: static;
-    /* left: initial; */
-    /* right: 0; */
-    /* flex-direction: column; */
+    left: initial;
+    right: -2rem;
+    flex-direction: column;
     row-gap: 3.5rem;
   }
 
   .home__social-follow {
     font-size: var(--small-font-size);
-    /* transform: rotate(90deg); */
+    transform: rotate(90deg);
   }
 
   .home__social-links {
-    /* flex-direction: column; */
+    flex-direction: column;
     row-gap: 0.25rem;
   }
   .home__social-link {
