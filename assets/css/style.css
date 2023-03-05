@@ -217,7 +217,7 @@ input {
   width: 36px;
   cursor: pointer;
   position: fixed;
-  right: 1.5rem;
+  right: 3rem;
   top: 2rem;
   font-size: 1.2rem;
   border-radius: 0.25rem;
@@ -1119,6 +1119,7 @@ textarea.input {
   }
 
   .nav__toggle {
+    position: relative;
     display: flex;
   }
   .nav__link.active-link::after,
@@ -1210,6 +1211,22 @@ textarea.input {
     row-gap: 3rem;
   }
 
+  .home__data {
+    max-width: 450px;
+  }
+  .home__title {
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-1);
+  }
+  .home__subtitle {
+    font-size: var(--normal-font-size);
+    margin-bottom: var(--mb-0-75);
+  }
+ 
+  .home__description {
+    font-size: var(--smaller-font-size);
+  }
+
   .work__container {
     grid-template-columns: 330px;
   }
@@ -1269,7 +1286,7 @@ textarea.input {
     background-image: none;
     height: initial;
     align-items: initial;
-    padding: 7rem 0 2rem;
+    padding: 4rem 0 2rem;
   }
 
   .home__container {
@@ -1329,20 +1346,9 @@ textarea.input {
 }
 @media screen and (max-width: 387px) {
   .home__data {
-    max-width: 290px;
+    max-width: 261px;
   }
-  .home__title {
-    font-size: var(--h1-font-size);
-    margin-bottom: var(--mb-1);
-  }
-  .home__subtitle {
-    font-size: var(--normal-font-size);
-    margin-bottom: var(--mb-0-75);
-  }
- 
-  .home__description {
-    font-size: var(--smaller-font-size);
-  }
+
 }
 
 /* For Small Devices */
